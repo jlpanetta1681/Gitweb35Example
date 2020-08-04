@@ -1,0 +1,114 @@
+My codepen link for todays assignment, https://codepen.io/jlpnetta1681/pen/RwabYye
+
+1. What is Semantic HTML? 
+HTML that assigns meaning or defines the code 
+
+    2. What is HTML used for? 
+to display information or context on a browser
+
+    3. What is an attribute and where do we put it?
+attributes are specific element descriptors and they are put in the opening tag just befor the closing angle bracket.
+ 
+    4. What is the h1 tag used for? How many times should I use it on a page?
+h1 is usually reserved for the title or heading of a page. it should only be used once.
+
+    5. Name two tags that have required attributes
+<a> tag requires attributesaas well as the <img src....> tag
+
+    6. What do we put in the head of our HTML document?
+ The DOCTYPE declaration
+ 
+    7. What is an id? 
+ a specific element identifier
+    8. What elements can I add an id to? 
+any element accept the anchor element
+
+    9. How many times can I use the same id on a page?
+once 
+    10. What is a class? 
+a group of elements with the same attributes
+
+    11. What elements can I add a class to?
+any element 
+    12. How many times can I use the same class on a page?
+as many times as needed
+ 
+    13. How do I get my link to open in a new tab?
+target="_blank in the <a> tag
+
+    14. What is the alt attribute in the image tag used for? 
+provides an alternate image if the original is unavailable for any reason.
+
+    15. How do I reference an id?
+# followed by the id name
+
+    16. What is the difference between a section and a div
+div is a generic holding containerand has no form or meaning  and section states that the content 
+should be displayed together and organized in some way
+
+    17. What is CSS used for?
+gives html a style and display decor and arrangement
+ 
+    18. How to we select an element? Example - every h2 on the page
+in your css shee type the following
+h2{
+}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+a class is given to more than one element with the same descriptors. an id can only point to one specific element
+if you have cars your talking about and you refer to 3 different kinds of car they could all have the class car. but if say you wanted to refer to bobs green cadillac it may be in the class car but so are all the other cars. you would use an id to refer to bobs green cadillac specifically.
+
+    20. How do we select classes in CSS?
+period followed by the class name
+
+    21. How do we select a p element with a single class of “human””?
+p.human
+    22. What is a parent child selector? When would this be useful?
+a selector that points to all elements that are children of the specified parent element
+ 
+    23. How do you select all links within a div with the class of sidebar?
+
+    24. What is a pseudo selector?
+    25. What do we use the change the spacing between lines?
+    26. What do we use to change the spacing between letters?
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    28. How do I add a 1px border around my div that is dotted and black?
+    29. How do I select everything on the page? 
+    30. How do I write a comment in CSS?
+    31. How do I find out what file I am in, when I am using the command line? 
+type pwd
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+type ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this?
+rm -filename. its permanent and it does nothing to confirm your choice, once you hit enter its gone.
+ 
+    34. Why should I use version control?
+it keeps multiple versions of your project saved as you work on it in case you break something or lose track of yourself 
+you can go back to the last working version. and it lets others collaborate and work on different points in the project.
+ 
+    35. How often should I commit to github? 
+as often as you can. at least every 20 minutes or so and any time you make a major change or get something working.
+
+    36. What is the command we would use to push our repo up to github?
+the first time you push its git push -u origin "file-name" then any time after the first push its git push 
+    37. Walk me through Lambda's git flow.
+first you fork repository to your name(fork button top left of github), then add your TL as a colaborator from settings tab manage collaborators, then you clone the repository to your machine throuh the terminal(greencode button then copy the url in one of the 2 available ways, open terminal and navigate to where you want to clone the file to and type git clone and paste the url. then you must navigate into your new repo, then git checkout -b to create youre branch, then you do your work then do the git add ., git commit -m "your message" then git push(see above for which way to do this..lol) then you go to git hub and create a new pull request by changing to your branch that you pushed and selectin new pull request, it goes to the pull request page, change the base repo box to your branch, add your TL if you havent already then submit pull request and wait for your TL to merge. dont merge your own pull request
+
+
+
+submitted when complete. I will be working on the rest of the stretch questions this evening
+
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+inline elements dont start a new line the continue on as needed. block elements start a new lline. i think i have that right, im just not sure i said it right
+
+    2. What happens when an element is positioned absolutely?
+everything else will be positioned as if the absolute element is not there. it is removed from the flow
+ 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+
